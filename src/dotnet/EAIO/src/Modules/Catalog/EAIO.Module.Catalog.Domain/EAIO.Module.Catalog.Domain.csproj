@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\EAIO.Shared.Domain\EAIO.Shared.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
