@@ -1,0 +1,6 @@
+@EAIO.Module.Catalog.API_HostAddress = http://localhost:5138
+
+GET {{EAIO.Module.Catalog.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
