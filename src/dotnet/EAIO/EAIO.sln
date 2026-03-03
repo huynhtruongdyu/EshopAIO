@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAIO.API", "src\EAIO.API\EAIO.API.csproj", "{59D5BA40-9946-492F-91C8-01B83B2E2FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAIO.BackOffice", "src\EAIO.BackOffice\EAIO.BackOffice.csproj", "{E4B65E73-C31C-4D45-9791-ADF533535229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAIO.Storefront", "src\EAIO.Storefront\EAIO.Storefront.csproj", "{C6A26921-D137-4E45-8FBD-5C9EEB7BFF73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7951A53F-5771-4B89-9E6C-51C7FDAD961A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAIO.Shared.UI.Static", "src\Shared\EAIO.Shared.UI.Static\EAIO.Shared.UI.Static.csproj", "{F011DE47-84BF-A368-F8CB-2B67A0609D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAIO.Shared.BuildingBlock", "src\shared\EAIO.Shared.BuildingBlock\EAIO.Shared.BuildingBlock.csproj", "{C4A3DF18-ED2A-48D1-93EF-4F7129712E43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59D5BA40-9946-492F-91C8-01B83B2E2FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D5BA40-9946-492F-91C8-01B83B2E2FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D5BA40-9946-492F-91C8-01B83B2E2FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D5BA40-9946-492F-91C8-01B83B2E2FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B65E73-C31C-4D45-9791-ADF533535229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B65E73-C31C-4D45-9791-ADF533535229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B65E73-C31C-4D45-9791-ADF533535229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B65E73-C31C-4D45-9791-ADF533535229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A26921-D137-4E45-8FBD-5C9EEB7BFF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A26921-D137-4E45-8FBD-5C9EEB7BFF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A26921-D137-4E45-8FBD-5C9EEB7BFF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A26921-D137-4E45-8FBD-5C9EEB7BFF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F011DE47-84BF-A368-F8CB-2B67A0609D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011DE47-84BF-A368-F8CB-2B67A0609D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011DE47-84BF-A368-F8CB-2B67A0609D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011DE47-84BF-A368-F8CB-2B67A0609D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A3DF18-ED2A-48D1-93EF-4F7129712E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A3DF18-ED2A-48D1-93EF-4F7129712E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A3DF18-ED2A-48D1-93EF-4F7129712E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A3DF18-ED2A-48D1-93EF-4F7129712E43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59D5BA40-9946-492F-91C8-01B83B2E2FA8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E4B65E73-C31C-4D45-9791-ADF533535229} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C6A26921-D137-4E45-8FBD-5C9EEB7BFF73} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7951A53F-5771-4B89-9E6C-51C7FDAD961A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F011DE47-84BF-A368-F8CB-2B67A0609D9F} = {7951A53F-5771-4B89-9E6C-51C7FDAD961A}
+		{C4A3DF18-ED2A-48D1-93EF-4F7129712E43} = {7951A53F-5771-4B89-9E6C-51C7FDAD961A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21A29380-7B78-4438-BBE1-D30F2DB4138F}
+	EndGlobalSection
+EndGlobal
